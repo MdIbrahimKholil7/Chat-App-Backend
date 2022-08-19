@@ -7,4 +7,4 @@ app.use(express.json())
 app.use(cors())
 
 
-app.listen(port,()=>console.log())
+app.listen(port,()=>console.log(`Server listening on ${port}`))
